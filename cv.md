@@ -1,6 +1,8 @@
 # Daria Vasileva
 ## Contact information
-*mana-kasha@mail.ru*
+email *mana-kasha@mail.ru*
+discord *drudaru*
+telegram *@darumur*
 ## Brief Information about Myself:
 * My name is Darya.
 * I live in the Moscow region.
