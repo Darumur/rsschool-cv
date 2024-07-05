@@ -1,11 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>test</h1>
-</body>
+    <title>CV</title>
+    <link rel="icon" href="assets/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Margarine&family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="header">
+      <nav class="menu">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#summary" class="nav-link">About me</a>
+          </li>
+          <li class="nav-item">
+            <a href="#skills" class="nav-link">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a href="#courses" class="nav-link">Courses</a>
+          </li>
+          <li class="nav-item">
+            <a href="#languages" class="nav-link">Languages</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contacts" class="nav-link">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <section class="container" id="profile">
+        <h1 class="main-title">Daria Vasileva</h1>
+        <img src="assets/img/main_foto.jpg" class="main-image" alt="Daria">
+      </section>
+      <section class="container" id="summary">
+        <h2 class="section-title">About me</h2>
+        <p class="content">
+          My name is Daria. I live in the Moscow region. I work as a project
+          manager in the development unit. I love Sphynx cats. In my spare time
+          I knit. I dream of moving to the sea.
+        </p>
+      </section>
+      <section class="container" id="skills">
+        <h2 class="section-title">My skills</h2>
+        <p class="content">
+          I've always wanted to learn programming. In 2018, I completed a
+          frontend course at the Moscow Coding School. I have a basic knowledge
+          of html/css, but since completing the first course, I've forgotten
+          many things and want to refresh and acquire new knowledge.
+        </p>
+      </section>
+      <section class="container" id="courses">
+        <h2 class="section-title">Courses</h2>
+        <div class="content">
+          <p class="list-title">Completed online courses at the GeekBrains school:</p>
+          <ul class="list">
+            <li>Web Development. Quick Start</li>
+            <li>Web Development for Beginners</li>
+            <li>HTML/CSS. Interactive Course</li>
+          </ul>
+          <p class="list-title-bottom">Underwent professional retraining at the Kaluga Technical School:</p>
+          <ul class="list">
+            <li>Web Application Development</li>
+          </ul>
+        </div>
+      </section>
+      <section class="container" id="languages">
+        <h2 class="section-title">Languages</h2>
+        <div class="content">
+          <p>English - basic</p>
+          <p>Russian - native</p>
+        </div>
+      </section>
+      <section class="container" id="contacts">
+        <h2 class="section-title">Contact information</h2>
+        <div class="icon-contacts content">
+          <div class="container-icon">
+            <a href="mailto:mana-kasha@mail.ru" class="email" target="_blank">mana-kasha@mail.ru</a>
+          </div>
+          <div class="container-icon">
+            <a href="https://t.me/darumur" class="tg" target="_blank">@darumur</a>
+          </div>
+          <div class="container-icon">
+            <a href="https://discordapp.com/users/298410633139847178" class="dis" target="_blank">drudaru</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <p>©2024</p>
+      <p><a href="https://github.com/Darumur" target="_blank">Darumur</a></p>
+      <a href="https://rs.school/js/" class="rss-logo" target="_blank"></a>
+    </footer>
+  </body>
 </html>
