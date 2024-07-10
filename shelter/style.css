@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+
+  .back-img {
+    background-image: url(assets/img/start-screen-gradient-background.jpg);
+  }
+
+  .logo-title {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 110%;
+    letter-spacing: 0.06em;
+    color: #F1CDB3;
+    padding-bottom: 10px;
+  }
+
+  .logo-subtitle{
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    padding: 30px 40px 80px 40px;
+  }
+
+  .nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+  }
+
+  .nav-link {
+    padding: 0 35px;
+    line-height: 50px;
+    transition: 0.3s;
+    color: #FFFFFF;
+  }
+
+  .nav-link {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 15px;
+  }
+
+  .not-only {
+    font-weight: 400;
+    display: flex;
+    padding: 40px 0 0 0;
+  }
+
+  .not-only-item {
+    width: 44%;
+    align-self: center;
+    padding: 0 40px;
+  }
+
+  .main-img {
+    background-image: url(assets/img/start-screen-puppy.png);
+    width: 698px;
+    height: 728px;
+    padding: 40px;
+  }
+
+  .main-title {
+    font-size: 44px;
+    color: #FFFFFF;
+    padding-bottom: 42px;
+    line-height: 130%;
+  }
+
+  .main-subtitle {
+    font-size: 15px;
+    color: #CDCDCD;
+    padding-bottom: 42px;
+    line-height: 160%;
+  }
+
+  .main-text {
+    width: 460px;
+  }
+
+  .button {
+    border-radius: 100px;
+    padding: 15px 45px;
+    width: 207px;
+    height: 52px;
+    background-color: #F1CDB3;
+  }
+
+  .main-button {
+    font-size: 17px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #292929;
+  }
+
+.about {
+    padding: 60px 0;
+}
+
+.about-item {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+}
+.about-text {
+    width: 44%;
+}
+
+  .about-img {
+    background-image: url(assets/img/about-pets.png);
+    width: 300px;
+    height: 408px;
+  }
+
+  .about-title {
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #545454;
+    padding-bottom: 25px;
+  }
+
+.about-subtitle {
+    font-size: 15px;
+    line-height: 160%;
+    color: #4C4C4C;
+    padding-bottom: 25px;
+}
+
+.about-subtitle {
+  font-size: 15px;
+  line-height: 160%;
+  color: #4C4C4C;
+  padding-bottom: 25px;
+}
