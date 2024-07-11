@@ -20,7 +20,6 @@
   }
 
   .logo-title {
-    font-weight: 400;
     font-size: 32px;
     line-height: 110%;
     letter-spacing: 0.06em;
@@ -29,7 +28,6 @@
   }
 
   .logo-subtitle{
-    font-weight: 400;
     font-size: 13px;
     letter-spacing: 0.1em;
     color: #FFFFFF;
@@ -50,16 +48,40 @@
   }
 
   .nav-link {
-    padding: 0 35px;
-    line-height: 50px;
-    transition: 0.3s;
-    color: #FFFFFF;
-  }
-
-  .nav-link {
+    font-family: Arial, sans-serif;
     text-decoration: none;
     font-weight: 400;
     font-size: 15px;
+    padding: 0 35px;
+    line-height: 50px;
+    color: #FFFFFF;
+  }
+
+  .nav-item a {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+  }
+
+  .nav-item a:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 0;
+    bottom: 0;
+    height: 5px;
+    background-color: #F1CDB3;
+    transition: width 0.3s ease-out;
+  }
+
+  .nav-item a:hover:after,
+  .nav-item a:focus:after {
+    width: 100%;
+  }
+
+  .nav-item a span {
+    display: inline-block;
+    line-height: 50px;
   }
 
   .not-only {
@@ -83,12 +105,14 @@
 
   .main-title {
     font-size: 44px;
+    font-weight: 400;
     color: #FFFFFF;
-    padding-bottom: 42px;
     line-height: 130%;
+    padding: 0 50px 42px 0;
   }
 
   .main-subtitle {
+    font-family: Arial, sans-serif;
     font-size: 15px;
     color: #CDCDCD;
     padding-bottom: 42px;
@@ -99,12 +123,21 @@
     width: 460px;
   }
 
-  .button {
+  .dark-button {
     border-radius: 100px;
     padding: 15px 45px;
     width: 207px;
     height: 52px;
     background-color: #F1CDB3;
+  }
+
+  .light-button {
+    border-radius: 100px;
+    border: solid #F1CDB3;
+    padding: 15px 45px;
+    width: 207px;
+    height: 52px;
+    background-color: #FAFAFA;
   }
 
   .main-button {
@@ -124,7 +157,7 @@
     flex-direction: row-reverse;
 }
 .about-text {
-    width: 44%;
+    width: 33%;
 }
 
   .about-img {
@@ -135,13 +168,16 @@
 
   .about-title {
     font-size: 35px;
+    font-weight: 400;
     line-height: 130%;
     letter-spacing: 0.06em;
     color: #545454;
     padding-bottom: 25px;
+    padding: 0 15px 25px 0;
   }
 
 .about-subtitle {
+  font-family: Arial, sans-serif;
     font-size: 15px;
     line-height: 160%;
     color: #4C4C4C;
@@ -153,4 +189,282 @@
   line-height: 160%;
   color: #4C4C4C;
   padding-bottom: 25px;
+}
+
+.our-friends {
+  background-color: #F6F6F6;
+}
+
+.our-title {
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  text-align: center;
+  padding: 80px 0 60px 0;
+}
+
+.our-item-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.our-img {
+  width: 270px;
+  height: 270px;
+}
+
+.katrine-img {
+  background-image: url(assets/img/pets-katrine.png);
+}
+
+.jennifer-img {
+  background-image: url(assets/img/pets-jennifer.png);
+}
+
+.woody-img {
+  background-image: url(assets/img/pets-woody.png);
+}
+
+.our-item {
+  border-radius: 9px;
+  background-color: #FAFAFA;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.our-title-item {
+  font-size: 20px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  padding: 30px 0;
+  color: #545454;
+}
+
+.our-button {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #292929;
+}
+
+.big-button {
+  padding: 15px 45px;
+  width: 264px;
+  height: 52px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+}
+
+.our-item-button {
+  text-align: center;
+  padding: 60px 0 100px 0;
+}
+
+.help-item-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.help {
+  padding: 80px 40px 55px 40px;
+}
+
+.help-icon {
+  width: 60px;
+  height: 60px;
+}
+
+.help-item {
+  padding-right: 100px;
+  padding-bottom: 55px;
+  text-align: -webkit-center;
+}
+
+.help-title{
+  font-weight: 400;
+font-size: 20px;
+line-height: 115%;
+letter-spacing: 0.06em;
+color: #545454;
+padding-top: 30px;
+}
+
+.food {
+  background-image: url(assets/img/icon/icon-pet-food.svg);
+}
+
+.transp {
+  background-image: url(assets/img/icon/icon-transportation.svg);
+}
+
+.toys {
+  background-image: url(assets/img/icon/icon-toys.svg);
+}
+
+.cups {
+  background-image: url(assets/img/icon/icon-bowls-and-cups.svg);
+}
+
+.shamp {
+  background-image: url(assets/img/icon/icon-shampoos.svg);
+}
+
+.vitamins {
+  background-image: url(assets/img/icon/icon-vitamins.svg);
+}
+
+.med {
+  background-image: url(assets/img/icon/icon-medicines.svg);
+}
+
+.collars {
+  background-image: url(assets/img/icon/icon-collars-leashes.svg);
+}
+
+.sleep {
+  background-image: url(assets/img/icon/icon-sleeping-area.svg);
+}
+
+.donat {
+  padding: 80px 0 100px 0;
+  background-color: #F6F6F6;
+}
+
+.donat-img {
+  background-image: url(assets/img/donation-dog.png);
+  width: 505px;
+  height: 261px;
+}
+
+.credit-button {
+  font-family: Georgia;
+  border-radius: 9px;
+padding: 10px 15px;
+width: 349px;
+height: 43px;
+background-color: #F1CDB3;
+font-weight: 400;
+font-size: 20px;
+line-height: 115%;
+letter-spacing: 0.06em;
+display: inline-flex;
+align-items: center;
+justify-content: center;
+color: #545454;
+}
+
+.credit-button span {
+  display: inline-flex;
+  align-items: center;
+}
+
+.credit-button span:before {
+  content: "";
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 23px;
+  padding-right: 10px;
+  background-image: url(assets/img/icon/credit-card.svg);
+}
+
+.donat-subtitle {
+  font-weight: 400;
+font-size: 15px;
+line-height: 110%;
+letter-spacing: 0.06em;
+color: #545454;
+padding: 20px 0 ;
+}
+
+.donat-title {
+  font-weight: 400;
+font-size: 35px;
+line-height: 130%;
+letter-spacing: 0.06em;
+}
+
+.donat-credit-legal {
+  font-style: italic;
+font-weight: 400;
+font-size: 12px;
+line-height: 150%;
+padding-top: 20px;
+color: #B2B2B2;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 56px 40px 0 40px;
+  background-image: url(assets/img/start-screen-gradient-background.jpg);
+}
+
+.footer-title {
+  font-weight: 400;
+font-size: 35px;
+line-height: 130%;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+padding-bottom: 40px;
+}
+
+.footer-img {
+  background-image: url(assets/img/footer-puppy.png);
+  width: 300px;
+  height: 310px;
+}
+
+.footer-item {
+  display: flex;
+  flex-direction: column;
+  width: 24%;
+}
+
+.footer-item a:before {
+  content: "";
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+  padding-right: 20px;
+}
+
+.footer-item p:before {
+  content: "";
+  background-repeat: no-repeat;
+  width: 22px;
+  height: 32px;
+  padding-right: 20px;
+}
+
+.footer-adress, .email, .tel {
+  font-weight: 400;
+font-size: 20px;
+line-height: 115%;
+letter-spacing: 0.06em;
+color: #F1CDB3;
+display: inline-flex;
+text-align: center;
+padding-bottom: 32px;
+text-decoration: none;
+}
+
+footer-adress p {
+  position: relative;
+}
+
+.email:before {
+  background-image: url(assets/img/icon/icon-email.svg);
+}
+
+.tel:before {
+  background-image: url(assets/img/icon/icon-phone.svg);
+}
+
+.footer-adress:before {
+  background-image: url(assets/img/icon/icon-marker.png);
 }
