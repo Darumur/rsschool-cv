@@ -30,6 +30,10 @@ body {
   padding-bottom: 10px;
 }
 
+.pets-title {
+  color: #292929;
+}
+
 .logo-subtitle {
   font-family: Arial;
   font-size: 13px;
@@ -167,7 +171,7 @@ body {
   text-decoration: none;
   color: #292929;
   border: 2px solid #f1cdb3;
-  transition:  background-color 0.3s, color 0.3s;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .light-button {
@@ -179,7 +183,7 @@ body {
 }
 
 .our-button:hover {
-  background-color: #FDDCC4;
+  background-color: #fddcc4;
   cursor: pointer;
 }
 
@@ -190,9 +194,9 @@ body {
   letter-spacing: 0.06em;
   color: #292929;
   display: block;
-    margin: 0 auto;
-    margin-top: auto;
-    width: 71%;
+  margin: 0 auto;
+  margin-top: auto;
+  width: 71%;
 }
 
 .big-button {
@@ -285,7 +289,11 @@ body {
 
 .our-friends {
   background-color: #f6f6f6;
-  padding: 85px 25px 100px 25px;
+  padding: 85px 25px 115px 25px;
+}
+
+.pets-our-friends {
+  padding: 80px 25px 105px 25px;
 }
 
 .our-title {
@@ -316,7 +324,6 @@ body {
   width: 270px;
   height: 435px;
 }
-
 
 .our-title-item {
   font-size: 20px;
@@ -395,7 +402,7 @@ body {
 }
 
 .help {
-  padding: 95px 45px 55px 45px;
+  padding: 85px 45px 40px 45px;
 }
 
 .help-icon {
@@ -404,7 +411,7 @@ body {
 }
 
 .help-item {
-  padding: 0 65px 55px 55px;
+  padding: 0 60px 55px 60px;
   text-align: -webkit-center;
 }
 
@@ -454,7 +461,7 @@ body {
 }
 
 .donat {
-  padding: 70px 0 100px 0;
+  padding: 80px 0 100px 0;
   background-color: #f6f6f6;
 }
 
@@ -578,15 +585,12 @@ footer-adress p {
   background-image: url(assets/img/icon/icon-marker.png);
 }
 
-/* ----------------- PETS------------------ */
-
 .our-pets-title {
   color: #545454;
 }
 
 .our-pets-subtitle {
   color: #292929;
-  text-shadow: 2px 2px 4px #292929;
 }
 
 .pets-link {
@@ -630,8 +634,7 @@ footer-adress p {
   background-image: url(assets/img/icon/button_paginator.png);
 }
 
-.pag-4:hover, .pag-5:hover {
+.pag-4:hover,
+.pag-5:hover {
   cursor: pointer;
 }
-
-/* ----------------- PETS------------------ */
